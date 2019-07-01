@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <title>Jogo: Preço Certo!</title>
+  <meta charset="utf-8">
+  <!--DEFINIR A VIEWPORT COM BASE NO TAMANHO DO DISPOSITIVO-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- BIBLIOTECA DE FUNÇÕES DEFINIDAS EM JAVASCRIPT -->
+  <script type="text/javascript" src="js\script.js"></script>
+
+  <!-- CHAMADA DOS ESTILOS CSS -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+
+  <body>
+    <div id="principal" class="designdiv">
+      <h1 class="jtitle">Preço Certo!</h1>
+      <p id="Valor_rodada" class="justifica letra"></p>
+      <p id="nome_premio" class="n_premio justifica">O jogo consiste em tentar acertar o valor do prêmio. <br> Caso seu palpite for
+      próximo do valor de varejo com margem de erro de até 10% para baixo, você ganha o prêmio!<br>Clique em "Começar o Jogo" e vamos lá!</p><br><br>
+      <div id="div" class="esconder_campo">
+        <div class="divimg">
+          <img class="img" id="img_premio"src="" alt="Imagem Quebrada">
+        </div>
+        <label id="nome_palpite" class="letra2"> Digite o valor do seu palpite: </label>
+        <input type="number" id="valor_palpite">
+      </div><br>
+      <div class="designbotao">
+        <button id="nome_botao" type="button" class="button button:hover" onclick="rodada()">Começar o Jogo</button>
+      </div>
+    </div>
+
+    <div id="final" class="esconder_campo">
+      <h1 id="titulo_final" class="jtitle_f fonth"></h1>
+      <p class="font_lg" id="resultado_ganhou" ></p><br>
+      <p class="font_lp" id="resultado_perdeu" ></p>
+    </div>
+  </body>
+</html>

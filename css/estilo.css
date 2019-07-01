@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@keyframes example {
+  0%   {color: red;}
+  100%  {color: green;}
+
+
+}
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(208, 208, 208);
+}
+
+input[type=number] {
+  width: 12%;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.justifica {
+  display: block;
+  text-align:center;
+}
+
+.letra{
+  color: black;
+  font-size: 30px;
+  text-decoration: underline overline;
+}
+
+.letra2{
+  color: black;
+  font-size: 30px;
+  animation: example 2s infinite;
+}
+
+.n_premio{
+  color: black;
+  text-shadow: 2px 1px 2px rgb(41, 134, 39);
+  font-size: 23px;
+}
+
+.jtitle {
+  text-align: center;
+  font-size: 88px;
+  text-shadow: 4px 4px 2px black;
+  color: #20880f;
+}
+
+.jtitle_f {
+  text-align: center;
+  padding-top: 5%;
+  margin-top: 5%;
+  font-size: 88px;
+  text-shadow: 4px 4px 2px black;
+  color: rgb(231, 142, 9);
+}
+
+.Bplay{
+  background-color: #b13e4a;
+}
+
+.divimg{
+  width: 350px;
+  height: 350px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.img {
+  border: 2px solid black;
+  max-width: 350px;
+  max-height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.esconder_campo {
+  display: none;
+}
+
+.designdiv {
+  max-width: 1200px;
+  border-style: groove;
+  border-color: #1c9608;
+  border-width: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(242, 242, 242, 0.5);
+}
+
+.designbotao {
+  max-width: 400px;
+  border-style: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fonth{
+  font-family: 'Righteous', cursive;
+}
+
+.font_lg{
+  font-family: 'Righteous', cursive;
+  color: #13d44f;
+  text-shadow: 0px 0px 4px #140502;
+  font-size: 20px;
+}
+
+.font_lp{
+  font-family: 'Righteous', cursive;
+  text-shadow: 2px 2px 2px black;
+  color: #f01f0b;
+  font-size: 20px;
+}
+
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 5px 3px;
+  cursor: pointer;
+  margin:auto;
+  display:block;
+  border-style: none;
+  border-radius: 25px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.button:hover{
+  background-color: #00ff00;
+}
